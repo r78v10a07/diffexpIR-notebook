@@ -1,0 +1,10 @@
+export PROJ_ROOT="/panfs/pan1.be-md.ncbi.nlm.nih.gov/alt_splicing/bioNotebook-DiffExpIR"
+
+source ${PROJ_ROOT}/venv/bin/activate
+export PATH=${PROJ_ROOT}/bin/:$PATH
+
+export BAMTOOLS="${PROJ_ROOT}/src/bamtools/"
+export BAMTOOLS_CPPFLAGS="-I ${BAMTOOLS}/include"
+export BAMTOOLS_LDFLAGS="-L ${BAMTOOLS}/lib -Wl,-rpath,${BAMTOOLS}/lib"
+export CPPFLAGS="-I ${BAMTOOLS}/include"
+export LDFLAGS="-L ${BAMTOOLS}/lib -Wl,-rpath,${BAMTOOLS}/lib"
