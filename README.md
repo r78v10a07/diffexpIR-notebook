@@ -2,7 +2,7 @@
 
 ## Notebook
 
-A Jupyter Notebook https://github.com/r78v10a07/diffexpIR-notebook/blob/master/docs/Getting\ started.ipynb, which describe howto install this project locally.
+A Jupyter Notebook https://github.com/r78v10a07/diffexpIR-notebook/blob/master/docs/Getting%20started.ipynb, which describe howto install this project locally.
 
 Execute this script to start the jupyter server.
 
