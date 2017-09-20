@@ -1,1 +1,8 @@
+*~
 venv
+*.fastq.gz
+data/
+results/
+src/
+.ipynb_checkpoints/
+data/IRFinder_GenBio_2017_18_51/
